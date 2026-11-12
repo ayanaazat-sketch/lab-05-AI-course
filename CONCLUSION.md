@@ -39,7 +39,7 @@ indicator in one year". Would you ship the fixed workflow or the agent? Use the 
 number of model calls, the tokens and the time you measured in Part 1. Then say in one sentence
 what kind of question would make you choose the other one.
 
-I would choose a workflow for monthly rankings because it gave better results on fixed questions: 13 out of 15 correct answers, compared with 9 out of 15 for the bare agent. It also used fewer model calls (15 vs. 26), fewer tokens (3,852 vs. 19,835) and less time (16.1 vs. 49.2 seconds). The full harness still made mistakes on q08 and q11, even with all three layers. The workflow could not answer q21 and q22 because of old region names, not because of ranking calculations. I would choose an agent for open-ended questions because a fixed workflow cannot answer every type of question.
+I would choose a workflow for monthly rankings because it gave better results on fixed questions: 13 out of 15 correct answers, compared with 9 out of 15 for the bare agent. It also used fewer model calls (15 vs. 26), fewer tokens (3852 vs. 19835) and less time (16.1 vs. 49.2 seconds). The full harness still made mistakes on q08 and q11, even with all three layers. The workflow could not answer q21 and q22 because of old region names, not because of ranking calculations. I would choose an agent for open-ended questions because a fixed workflow cannot answer every type of question.
 
 ---
 
